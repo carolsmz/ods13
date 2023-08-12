@@ -67,10 +67,20 @@ header ul li a{
     color: #c70e0e;
 }
 
+
 .definicao{ 
     font-size: 25px;
     padding: 20px 40px 40px 40px;
     text-align: justify;
+}
+
+
+section p{
+     font-size: 20px;
+}
+
+li{
+    font-size: 20px;
 }
 
 h2{
@@ -86,24 +96,53 @@ p, li{
 }
 
 .causas{
-    padding: 20px 20px 40px ;
+    padding: auto;
     color: rgb(240, 152, 111);
     background-color: rgba(0, 0, 0, 0.918);
 }
 
+i{
+    font-size: 15px;
+    color: rgb(240, 152, 111);
+    
+}
+
+#grafico {
+    max-width: 100%;
+    align-items: center;
+    padding: 0 15% 5% 15%;
+}
+
 
 .imgurso{
-    height: 200px;
-    width: 650px;
+    border: thin silver solid;
+    height:auto;
+    width: 680px;
     float: left;
-    margin-right: 20px;
-    padding-top: 20px;
+    margin: 0 20px 20px 20px;
+    padding-top: 22px;
+    padding-left: 18px;
+}
+
+.imgtemp{
+    border: thin silver solid;
+    height:auto;
+    width: 480px;
+    float: left;
+    margin: 40px 20px 20px 95px;
+    padding: 22px 105px;
+    
 }
     
 
 .consequencias{
     background-color: rgba(0, 0, 0, 0.918);
     text-align: justify;
+    padding: 2% 2%
+}
+
+.consequencias ul{
+    padding-left: 5%;
 }
 
 .consequencias h2{
@@ -111,6 +150,13 @@ p, li{
 }
 
 
-.ods li{
-    
+.site, footer{
+    padding-top: 1%;
+    padding-left: 38%;
+    background-color: #141414;
 }
+a{
+    text-decoration: none;
+    color: rgb(206, 135, 5);
+}
+    
